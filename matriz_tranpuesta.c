@@ -21,7 +21,7 @@ int main(){
     }
 
     //impresion de matriz original para comprobar
-    printf("\nMATRIZ ORIGINAL:  \n\n ");
+    printf("\nMATRIZ ORIGINAL:  \n\n");
     for ( i = 0; i < rows; i++){
         for ( j = 0; j < columns ; j++){
             printf(" %d ", matriz[i][j]);
@@ -30,7 +30,7 @@ int main(){
     }
 
     //impersion de la matriz transpuesta
-    printf("\nMATRIZ TRANSPUESTA:  \n\n ");
+    printf("\nMATRIZ TRANSPUESTA:  \n\n");
     for ( i = 0; i < rows; i++){
         for ( j = 0; j < columns ; j++){
             printf(" %d ", matriz[j][i]);
