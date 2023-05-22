@@ -15,10 +15,18 @@ int main(){
             matriz[i][j]= rand()%100;
         }
     }
-
+    printf("Matriz original:  \n ");
     for ( i = 0; i < rows; i++){
         for ( j = 0; j < columns ; j++){
-            printf("%d", matriz[i][j]);
+            printf(" %d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("Matriz transpuesta:  \n ");
+    for ( i = 0; i < rows; i++){
+        for ( j = 0; j < columns ; j++){
+            printf(" %d ", matriz[j][i]);
         }
         printf("\n");
     }
